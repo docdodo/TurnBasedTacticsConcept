@@ -12,7 +12,7 @@ public class NPCMove : TacticsMove {
         dead = false;
         maxhp = 50.0f;
         hp = maxhp;
-        move = 6;   //Enemies can move 1 more space so they can catch up to the player.
+        move = 5;   //Enemies can move 1 more space so they can catch up to the player.
     }
 	
 	// Update is called once per frame
@@ -76,7 +76,14 @@ public class NPCMove : TacticsMove {
         }
         target = nearest;
     }
+    public void TakeDamage(int damage)
+    {
+        hp = hp - damage;
 
-    
+        
+
+
+    }
+
 
 }

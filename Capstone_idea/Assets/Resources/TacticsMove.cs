@@ -10,7 +10,7 @@ public class TacticsMove : MonoBehaviour
     GameObject[] enemies;
     Stack<tile> path = new Stack<tile>();
     tile currentTile;
-    public int move = 5;
+    public int move = 4;
     public float JumpHeight = 1;
     public float movespeed = 2;
     public float jumpvelocity = 4.5f;

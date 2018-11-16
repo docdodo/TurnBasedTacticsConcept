@@ -1,15 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using System;
 public class Hitbox : MonoBehaviour
 {
+    public GameObject player;
+    public int damage;
 
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter(Collider other)
     {
-        if (col.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            Destroy(col.gameObject);
+            Debug.Log("hit");
+            player.GetComponent<PlayerMove>().TakeDamage(damage);
         }
     }
 }

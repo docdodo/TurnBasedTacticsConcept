@@ -64,6 +64,7 @@
     <Compile Include="Assets\Cameramove.cs" />
     <Compile Include="Assets\GameOver.cs" />
     <Compile Include="Assets\Hitbox.cs" />
+    <Compile Include="Assets\PlayerHitBox.cs" />
     <Compile Include="Assets\Resources\MenuScript.cs" />
     <Compile Include="Assets\Resources\NPCMove.cs" />
     <Compile Include="Assets\Resources\NPCTARGET.cs" />
@@ -90,16 +91,16 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/rober/Documents/Capstone_idea/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/rober/Documents/game jam physics/TurnBasedTacticsConcept/Capstone_idea/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/rober/Documents/Capstone_idea/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/rober/Documents/game jam physics/TurnBasedTacticsConcept/Capstone_idea/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/rober/Documents/Capstone_idea/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/rober/Documents/game jam physics/TurnBasedTacticsConcept/Capstone_idea/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/rober/Documents/Capstone_idea/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/rober/Documents/game jam physics/TurnBasedTacticsConcept/Capstone_idea/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
