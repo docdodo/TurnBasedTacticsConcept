@@ -69,7 +69,6 @@
     <Compile Include="Assets\Scripts\HealingTile.cs" />
     <Compile Include="Assets\Scripts\Hitbox.cs" />
     <Compile Include="Assets\Scripts\LevelSystem.cs" />
-    <Compile Include="Assets\Scripts\MenuScript.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\NPCMove.cs" />
     <Compile Include="Assets\Scripts\NPCspawn.cs" />

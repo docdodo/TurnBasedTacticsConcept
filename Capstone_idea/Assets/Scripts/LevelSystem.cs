@@ -8,13 +8,17 @@ public class LevelSystem : MonoBehaviour {
     public GameObject player;
     public float AtkUpreduced;
     public float MagicAtkUpreduced;
+    public float hpupreduced;
+    public float mpupreduced;
     public void IncreaseHealth()
     {
-        player.GetComponent<PlayerMove>().IncreaseHealth(10);
+        hpupreduced = 200.0f / player.GetComponent<PlayerMove>().hp;
+        player.GetComponent<PlayerMove>().IncreaseHealth(hpupreduced);
     }
     public void IncreaseMP()
     {
-        player.GetComponent<PlayerMove>().IncreaseMP(10);
+        mpupreduced = 200.0f / player.GetComponent<PlayerMove>().Mp;
+        player.GetComponent<PlayerMove>().IncreaseMP(mpupreduced);
     }
     public void IncreaseMeleeAtk()
     {

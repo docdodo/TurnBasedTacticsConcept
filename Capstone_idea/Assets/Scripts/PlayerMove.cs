@@ -186,7 +186,7 @@ public class PlayerMove : TacticsMove
         EXP = EXP- EXPLost;
     }
     
-    public void IncreaseHealth(int HealthIncreaseAmount)
+    public void IncreaseHealth(float HealthIncreaseAmount)
     {
         if (EXPCost <= EXP)
         {
@@ -194,13 +194,13 @@ public class PlayerMove : TacticsMove
             healthSlider.maxValue = maxhp;
             EXP = EXP - EXPCost;
             exptext.text = "Exp : " + EXP;
-            EXPCost = EXPCost + (EXPCost * 0.05f) + 15.0f;
+            EXPCost = EXPCost + (EXPCost * 0.05f);
             EXPCost = (Mathf.Round(EXPCost * 100)) / 100.0f;
             expcosttext.text = "Upgrade cost : " + EXPCost;
         }
     }
 
-    public void IncreaseMP(int MpIncreaseAmount)
+    public void IncreaseMP(float MpIncreaseAmount)
     {
         if (EXPCost <= EXP)
         {
@@ -208,7 +208,7 @@ public class PlayerMove : TacticsMove
             MpSlider.maxValue = MaxMp;
             EXP = EXP - EXPCost;
             exptext.text = "Exp : " + EXP;
-            EXPCost = EXPCost + (EXPCost * 0.05f) + 15.0f;
+            EXPCost = EXPCost + (EXPCost * 0.05f);
             EXPCost = (Mathf.Round(EXPCost * 100)) / 100.0f;
             expcosttext.text = "Upgrade cost : " + EXPCost;
         }
@@ -222,7 +222,7 @@ public class PlayerMove : TacticsMove
 
             EXP = EXP - EXPCost;
             exptext.text = "Exp : " + EXP;
-            EXPCost = EXPCost + (EXPCost * 0.05f) + 15.0f;
+            EXPCost = EXPCost + (EXPCost * 0.05f);
             EXPCost = (Mathf.Round(EXPCost * 100)) / 100.0f;
             expcosttext.text = "Upgrade cost : " + EXPCost;
         }
@@ -235,7 +235,7 @@ public class PlayerMove : TacticsMove
 
             EXP = EXP - EXPCost;
             exptext.text = "Exp : " + EXP;
-            EXPCost = EXPCost + (EXPCost * 0.05f) + 15.0f;
+            EXPCost = EXPCost + (EXPCost * 0.05f);
             EXPCost = (Mathf.Round(EXPCost * 100)) / 100.0f;
             expcosttext.text = "Upgrade cost : " + EXPCost;
         }
